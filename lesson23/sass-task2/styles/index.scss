@@ -10,13 +10,7 @@ body {
   height: 100vh;
 }
 .container {
-  @include for-medium-up {
-    display: flex;
-  }
-  @include for-big {
-    display: flex;
-  }
-  @include for-large-up {
+  @include landscape-screen {
     display: flex;
   }
 }
