@@ -28,9 +28,13 @@ ul li {
 .menu__item_active {
   color: yellow;
 }
+.menu__item_active:hover .submenu {
+  display: block;
+}
 
 .submenu {
   position: absolute;
+  display: none;
   margin: 0;
   padding: 0;
   background-color: #ff7f50;
