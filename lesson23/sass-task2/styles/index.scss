@@ -13,6 +13,10 @@ body {
   @include landscape-screen {
     display: flex;
   }
+  @include portrait-screen {
+    display: flex;
+    flex-direction: column;
+  }
 }
 .square {
   width: 100px;
