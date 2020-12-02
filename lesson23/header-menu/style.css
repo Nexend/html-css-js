@@ -9,6 +9,7 @@ ul {
 
 ul li {
   cursor: pointer;
+  color: #fff;
 }
 
 .menu {
